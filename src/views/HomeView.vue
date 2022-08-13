@@ -125,7 +125,7 @@
 				<p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">Thanks to the unique way we work we are able to ensure that 100% of your donation goes to our work.</p>
 			</div>
 			<div class="w-full mx-auto mt-20 text-center md:w-10/12 hover:scale-150">
-				<img src="https://ipfs.infura.io/ipfs/Qmb6ZGtC4CQ1X9XFthTR8xnX2Le4yVy6bL5VymkfQ6UPXt" />
+				<img src="pro.png" />
 			</div>
 		</div>
 	</section>
