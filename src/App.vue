@@ -1,45 +1,76 @@
 <template>
-	<header>
-		<div class="flex flex-col flex-wrap items-center px-8 py-6 mx-auto max-w-7xl md:flex-row">
-			<a href="#_" class="flex items-center order-first mb-4 font-medium text-gray-900 lg:order-none lg:w-auto title-font lg:items-center lg:justify-center md:mb-0">
-				<span class="text-xl font-black leading-none text-gray-900 select-none logo">CRYPTOFORISLAM<span class="text-indigo-500">.</span>COM</span>
-			</a>
-			<nav class="flex flex-wrap items-center justify-center text-base font-bold tracking-tight md:ml-auto">
-				<a href="#_" class="mr-5 hover:text-gray-900">TEAM</a>
-				<a href="#_" class="mr-5 hover:text-gray-900">TREASURY</a>
-			</nav>
-
-			<button class="mr-5 inline-flex items-center px-3 py-2 mt-4 text-sm font-bold text-gray-700 bg-gray-200 border-0 rounded focus:outline-none hover:bg-gray-300 md:mt-0">
-				DONATE
-				<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-					<path d="M5 12h14M12 5l7 7-7 7"></path>
-				</svg>
-			</button>
+	<div class="w-full bg-black relative z-20 font-medium text-sm h-10 text-left flex items-center text-white">
+		<div class="max-w-2xl mx-auto text-left">
+			<span class="md:-ml-10"><span class="md:inline mr-1 hidden">أولئك الذين ينفقون في الصدقة سيكافأون بسخاء</span></span>
 		</div>
-	</header>
+	</div>
+	<div class="max-w-6xl xl:px-0 px-10 w-full relative z-20 flex mx-auto justify-between h-20 items-center">
+		<div class="relative flex items-center pr-10">
+			<router-link to="/" class="flex items-center text-lg font-black">CRYPTOFORISLAM.COM</router-link>
+		</div>
+		<div class="absolute sm:relative w-full px-10 left-0 sm:mt-0 mt-32"></div>
+		<div class="relative flex space-x-5 font-medium">
+			<router-link to="/faq" class="leading-none py-2">FAQ</router-link>
+			<router-link to="/team" class="leading-none py-2">TEAM</router-link>
+			<router-link to="/app" class="font-medium bg-gray-900 text-white rounded-full px-4 py-2 text-sm">DONATE</router-link>
+		</div>
+	</div>
+	<router-view />
 
-	<head_sk />
-	<donation_meter />
-	<donation_cause />
-	<blog_fetch />
-	<join_us />
+	<section class="px-6 py-6 text-gray-600 bg-gray-50 lg:px-8 md:py-12">
+		<div class="py-6 mx-auto mb-12 space-y-6 border-b-2 border-gray-200 max-w-7xl lg:mb-16 md:py-12 lg:pb-20 md:flex md:justify-between md:items-center md:flex-row md:space-x-12">
+			<div class="flex-1 max-w-3xl">
+				<h4 class="text-2xl font-medium text-gray-700 sm:text-3xl md:text-4xl">Start Building the App of Your Dreams</h4>
+				<p class="mt-4 text-base font-medium leading-relaxed text-gray-500 md:text-xl">
+					Are you ready to start crafting the money-generating application you've always dreamed. There's never been a better time to get started.
+				</p>
+			</div>
+			<router-link to="/app" class="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8"
+				>DONATE</router-link
+			>
+		</div>
+		<div class="grid max-w-screen-xl gap-6 mx-auto md:grid-cols-2 lg:grid-cols-4 lg:gap-x-8" v-if="load">
+			<div v-for="(post, index) of posts" :key="index">
+				<a v-bind:href="post.link" class="block overflow-hidden group rounded-xl">
+					<img v-bind:src="post.thumbnail" class="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
+				</a>
+				<div class="relative mt-5">
+					<a v-bind:href="post.link" class="block mb-3 hover:underline">
+						<h2 class="text-xl">{{ post.title }}</h2>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 </template>
 
 <script>
-	import head_sk from './components/head_sk.vue';
-	import blog_fetch from './components/blog_fetch.vue';
-	import donation_meter from './components/donation_meter.vue';
-	import donation_cause from './components/donation_cause.vue';
-	import join_us from './components/join_us.vue';
+	import axios from 'axios';
 
 	export default {
-		name: 'App',
-		components: {
-			blog_fetch,
-			donation_meter,
-			head_sk,
-			donation_cause,
-			join_us,
+		data() {
+			return {
+				posts: [{ title: 'ok' }],
+				load: false,
+			};
+		},
+
+		methods: {
+			async fetchdata() {
+				try {
+					const response = await axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@susanorlean');
+
+					this.posts = response.data.items;
+					this.load = true;
+
+					this.posts = this.posts.slice(0, 4);
+				} catch (error) {
+					console.log(error);
+				}
+			},
+		},
+		async mounted() {
+			await this.fetchdata();
 		},
 	};
 </script>
