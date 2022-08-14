@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="lg:w-1/2 w-full lg:max-w-none max-w-md lg:pt-0 pt-20 mx-auto lg:pl-20">
-				<img src="https://cdn.devdojo.com/images/march2022/character.png" class="w-full h-auto" />
+				<img src="https://cryptoforislam.com/main.png" class="w-full h-auto" />
 			</div>
 		</div>
 	</section>
