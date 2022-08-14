@@ -10,7 +10,7 @@
 			<router-link to="/" class="flex items-center text-lg font-black">CRYPTOFORISLAM.COM</router-link>
 		</div>
 		<div class="absolute sm:relative w-full px-10 left-0 sm:mt-0 mt-32"></div>
-		<div class="relative flex space-x-5 font-medium">
+		<div class="relative flex space-x-5 font-medium hidden md:block">
 			<router-link to="/faq" class="leading-none py-2">FAQ</router-link>
 			<router-link to="/team" class="leading-none py-2">TEAM</router-link>
 			<router-link to="/app" class="font-medium bg-gray-900 text-white rounded-full px-4 py-2 text-sm">DONATE
