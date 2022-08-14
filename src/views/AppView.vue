@@ -2,7 +2,7 @@
 	<div class="max-w-xl m-auto py-60 px-10">
 		<div class="text-center space-y-5">
 			<div class="mt-1 font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight uppercase">
-				<div class="text-4xl py-2">You are Donating</div>
+				<div class="text-4xl py-2">You are Donating (USDT)</div>
 
 				<input type="range" v-model="amount" min="1" max="100" step="1" class="w-full h-4 bg-blue-100 appearance-none rounded-full" />
 
