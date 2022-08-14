@@ -75,14 +75,14 @@
 			return {
 				teams: [
 					{
-						name: 'XX XX',
-						title: 'XXX',
-						pic: 'https://cdn.devdojo.com/images/july2021/01-John-Cremson.jpg',
+						name: 'M Habib Jave',
+						title: 'Founder',
+						pic: 'team/1.jpg',
 					},
 					{
-						name: 'Byron XX',
+						name: 'Muruj Siddique',
 						title: 'Manager',
-						pic: 'https://cdn.devdojo.com/images/july2021/01-John-Cremson.jpg',
+						pic: 'team/2.jpg',
 					},
 					
 				],
