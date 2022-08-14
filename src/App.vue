@@ -23,10 +23,15 @@
 		<div
 			class="py-6 mx-auto mb-12 space-y-6 border-b-2 border-gray-200 max-w-7xl lg:mb-16 md:py-12 lg:pb-20 md:flex md:justify-between md:items-center md:flex-row md:space-x-12">
 			<div class="flex-1 max-w-3xl">
-				<h4 class="text-2xl font-medium text-gray-700 sm:text-3xl md:text-4xl">The Prophet Muhammad said:
+				<h4 class="text-2xl font-medium text-gray-700 sm:text-3xl md:text-4xl">The Prophet Muhammad said: “Every
+					Muslim has to give in charity.”
+
+
 				</h4>
 				<p class="mt-4 text-base font-medium leading-relaxed text-gray-500 md:text-xl">
-					“Every Muslim has to give in charity.” </p>
+					“Charity does not decrease wealth, no one forgives another except that Allah increases his honor,
+					and no one humbles himself for the sake of Allah except that Allah raises his status.”
+				</p>
 			</div>
 			<router-link to="/app"
 				class="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8">
