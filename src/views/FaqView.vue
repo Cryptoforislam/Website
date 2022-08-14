@@ -4,32 +4,30 @@
 			<h2 class="mb-4 text-xl font-bold md:text-3xl">Frequently Asked Questions</h2>
 			<div class="grid grid-cols-1 gap-0 text-gray-600 md:grid-cols-2 md:gap-16">
 				<div>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">What is Tails</h5>
-					<p>Tails is a drag and drop page builder built on Top of TailwindCSS. You can drop components to create a page that you can export.</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I try it for Free?</h5>
-					<p>Absolutely, you can try out tails for free; however, if you wish to access all the components and export the page you'll need to upgrade your account.</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Where do I go to upgrade my account?</h5>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Why Crypto for Islam?</h5>
+					<p>Crypto for Islam is the only platform that accepts crypto payments for Islam and donates every
+						single penny donated for the welfare of Muslims.</p>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">How much donations will be spent?</h5>
+					<p>CFI will spend 100% of the donations received on the welfare of Muslims around the world. All the
+						money donated will be used in our various programs with the input of the volunteers.</p>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Which countries does crypto for Islam work in?
+					</h5>
 					<p>
-						You can upgrade your account by visiting <a href="https://devdojo.com/pro" class="text-indigo-500 underline">The Pro Upgrade Page</a>. You will also gain access to many other applications
-						and sections of the site. <a href="https://help.hellonext.co/faq/startup-eligibility/" target="_blank">here</a>.
+						CFI works everywhere in the world where our Muslim brothers need help. No matter what place you
+						reside in this world if you are Muslim CFI will help you out and provide you with a better life.
 					</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">How long will I have access to Tails</h5>
-					<p>
-						You will have unlimited access to all your pre-built pages; however, if you want to be able to download and export your pages, you'll need a pro account.
-						<a href="https://paddle.com" target="_blank">Paddle</a> for processing payments.
-					</p>
+
 				</div>
 				<div>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">How do I implement into my project</h5>
-					<p>Implementation in your project is very simple. You can use the exported page as a starting point, or you can copy and paste the HTML into your own page.</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">What is the license on the pages?</h5>
-					<p>You have unlimited use to the templates used in Tails; however, you cannot re-use the templates to sell for others to use.</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I cancel my account if I not longer need it?</h5>
-					<p>Of course, you can feel free to cancel your account at anytime, and you can feel free to come back and upgrade again whenever you're ready.</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">What if I need help with my project?</h5>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Who can volunteer?</h5>
+					<p>Anyone can volunteer to contribute to our organization. We welcome everyone who wants to help out
+						his fellow brothers and sisters.</p>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I volunteer abroad?</h5>
+					<p>YES, you can volunteer from anywhere, CFI welcomes everyone who wants to spread our noble cause
+						and help.</p>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I donate in fiat currency?</h5>
 					<p>
-						If you need assistance implementing the templates into your project you can contact support or you can visit our
-						<a href="https://devdojo.com/questions" class="text-indigo-500 underline">question section</a>.
+						No, you can't donate in fiat. Crypto for Islam only accepts payment in crypto.
 					</p>
 				</div>
 			</div>
