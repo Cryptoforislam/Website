@@ -124,7 +124,11 @@ export default {
 					title: 'Manager',
 					pic: 'team/5.jpg',
 				},
-
+				{
+					name: 'Ali',
+					title: 'Manager',
+					pic: 'team/6.jpg',
+				},
 			],
 		};
 	},
