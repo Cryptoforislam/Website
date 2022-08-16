@@ -9,7 +9,9 @@
 						class="block text-6xl sm:text-7xl xl:text-8xl xl:inline-block relative bg-clip-text text-transparent bg-gradient-to-r font-black from-black via-gray-800 to-black">ISLAM</span>
 				</h1>
 				<p class="my-5 text-lg text-gray-400 mx-auto sm:text-2xl sm:my-9 sm:max-w-3xl md:leading-9 lg:pr-16">
-					Every penny you donate has the power to change a life.</p>
+					The dearest of actions to Allah is that which is done regularly, even if it is small. Giving regular
+					charity no matter how small attracts the blessings of Allah swt. Help us bring hope to life to
+					millions around the world.</p>
 				<div class="box-border leading-7 lg:text-left text-gray-900 text-center">
 					<router-link to="/app"
 						class="inline-block w-full px-5 py-3 mb-3 mr-1 text-base font-semibold text-white no-underline align-middle bg-gray-900 border border-transparent border-solid rounded-full cursor-pointer select-none sm:mb-0 sm:w-auto hover:bg-black hover:text-white">
@@ -29,10 +31,10 @@
 	<section class="box-border relative block py-24 overflow-hidden leading-6 text-left bg-white">
 		<div class="max-w-6xl px-4 px-16 mx-auto leading-6 text-left xl:px-12">
 			<div class="box-border flex flex-col flex-wrap items-start mx-0 text-indigo-900">
-				<div class="pb-4 text-sm font-bold text-left text-gray-700 uppercase">Powerful Features</div>
+				<div class="pb-4 text-sm font-bold text-left text-gray-700 uppercase">What We Do</div>
 				<h3
 					class="relative w-full px-0 pb-2 m-0 font-sans text-4xl font-bold text-left xl:flex-grow-0 xl:flex-shrink-0 md:flex-grow-0 md:flex-shrink-0 lg:flex-grow-0 lg:flex-shrink-0">
-					Powerful and Simple Features for your Application
+					BRINGING HOPE TO LIFE
 				</h3>
 			</div>
 			<div class="grid grid-cols-3 gap-5 text-indigo-900 md:grid-cols-6">
@@ -42,7 +44,7 @@
 						<div class="pl-8 leading-6 text-left">
 							<div class="box-border pb-1 text-xl font-medium text-indigo-900">Water</div>
 							<div class="box-border text-base leading-normal text-gray-700">An ever-flowing
-								charity,Sadaqah jariyah provides clean water so communities can thrive.</div>
+								charity,Sadaqah Jariyah provides clean water so communities can thrive.</div>
 						</div>
 					</div>
 				</div>
