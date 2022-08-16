@@ -68,7 +68,7 @@ export default {
 	methods: {
 		async fetchdata() {
 			try {
-				const response = await axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@susanorlean');
+				const response = await axios.get('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@cryptoforislam');
 
 				this.posts = response.data.items;
 				this.load = true;
