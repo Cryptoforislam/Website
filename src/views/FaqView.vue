@@ -19,11 +19,11 @@
 
 				</div>
 				<div>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Who can volunteer?</h5>
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Who can Volunteer?</h5>
 					<p>Anyone can volunteer to contribute to our organization. We welcome everyone who wants to help out
 						his fellow brothers and sisters.</p>
-					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I volunteer abroad?</h5>
-					<p>YES, you can volunteer from anywhere, Crypto for Islam welcomes everyone who wants to spread our noble cause
+					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I Volunteer Abroad?</h5>
+					<p>Yes, you can volunteer from anywhere, Crypto for Islam welcomes everyone who wants to spread our noble cause
 						and help.</p>
 					<h5 class="mt-10 mb-3 font-semibold text-gray-900">Can I donate in fiat currency?</h5>
 					<p>
