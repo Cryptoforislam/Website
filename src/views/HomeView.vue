@@ -31,10 +31,10 @@
 	<section class="box-border relative block py-24 overflow-hidden leading-6 text-left bg-white">
 		<div class="max-w-6xl px-4 px-16 mx-auto leading-6 text-left xl:px-12">
 			<div class="box-border flex flex-col flex-wrap items-start mx-0 text-indigo-900">
-				<div class="pb-4 text-sm font-bold text-left text-gray-700 uppercase">What We Do</div>
+				<div class="pb-4 text-sm font-bold text-left text-gray-700 uppercase">BRINGING HOPE TO LIFE</div>
 				<h3
 					class="relative w-full px-0 pb-2 m-0 font-sans text-4xl font-bold text-left xl:flex-grow-0 xl:flex-shrink-0 md:flex-grow-0 md:flex-shrink-0 lg:flex-grow-0 lg:flex-shrink-0">
-					BRINGING HOPE TO LIFE
+					What We Do
 				</h3>
 			</div>
 			<div class="grid grid-cols-3 gap-5 text-indigo-900 md:grid-cols-6">
