@@ -35,7 +35,7 @@
   </div>
   <router-view />
 
-  <section class="px-6 py-6 text-gray-600 bg-gray-50 lg:px-8 md:py-12">
+  <section class="px-6 py-6 text-white bg-gray-900 lg:px-8 md:py-12">
     <div
       class="py-6 mx-auto mb-12 space-y-6 border-b-2 border-gray-200 max-w-7xl lg:mb-16 md:py-12 lg:pb-20 md:flex md:justify-between md:items-center md:flex-row md:space-x-12"
     >
@@ -53,7 +53,7 @@
       </div>
       <a
         href="https://y8fsqpcq0pb.typeform.com/to/NnAtKo5W"
-        class="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8"
+        class="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8 uppercase"
       >
         Request Donation
       </a>
