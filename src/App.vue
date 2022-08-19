@@ -1,16 +1,5 @@
 <template>
   <div
-    class="w-full bg-black relative z-20 font-medium text-sm h-10 text-left flex items-center text-white"
-  >
-    <div class="max-w-2xl mx-auto text-left">
-      <span class="md:-ml-10">
-        <span class="md:inline mr-1 hidden">
-          أولئك الذين ينفقون في الصدقة سيكافأون بسخاء
-        </span>
-      </span>
-    </div>
-  </div>
-  <div
     class="max-w-6xl xl:px-0 px-10 w-full relative z-20 flex mx-auto justify-between h-20 items-center"
   >
     <div class="relative flex items-center pr-10">
@@ -39,7 +28,7 @@
     <div
       class="py-6 mx-auto mb-12 space-y-6 border-b-2 border-gray-200 max-w-7xl lg:mb-16 md:py-12 lg:pb-20 md:flex md:justify-between md:items-center md:flex-row md:space-x-12"
     >
-      <div class="flex-1 max-w-3xl">
+      <div class="flex-1 max-w-5xl">
         <h4 class="text-2xl font-medium sm:text-3xl md:text-4xl">
           The Prophet Muhammad said: “Every Muslim has to give in charity.”
         </h4>
@@ -51,12 +40,7 @@
           Allah except that Allah raises his status.”
         </p>
       </div>
-      <a
-        href="https://y8fsqpcq0pb.typeform.com/to/NnAtKo5W"
-        class="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8 uppercase"
-      >
-        Request Donation
-      </a>
+  
     </div>
     <div
       class="grid max-w-screen-xl gap-6 mx-auto md:grid-cols-2 lg:grid-cols-4 lg:gap-x-8"

@@ -1,60 +1,46 @@
 <template>
-  <section class="h-auto bg-white overflow-hidden">
-    <div
-      class="max-w-6xl pt-24 lg:pt-32 pb-16 lg:pb-24 xl:px-5 px-12 relative z-20 justify-center mx-auto flex lg:flex-row flex-col items-center sm:text-center lg:text-left"
+  <div class="py-40">
+    <section
+      class="bg-orange-50 overflow-hidden bg-cover bg-center cursor-pointer transform duration-500 hover:-translate-y-1 rounded-xl"
     >
-      <div class="lg:w-1/2 w-full">
-        <h1
-          class="text-4xl tracking-tight font-extrabold text-gray-900 relative sm:text-5xl"
-        >
-          <span class="block xl:inline relative">CRYPTO FOR</span>
-          <span
-            class="block text-6xl sm:text-7xl xl:text-8xl xl:inline-block relative bg-clip-text text-transparent bg-gradient-to-r font-black from-black via-gray-800 to-black"
-          >
-            ISLAM
-          </span>
-        </h1>
-        <p
-          class="my-5 text-lg text-gray-400 mx-auto sm:text-2xl sm:my-9 sm:max-w-3xl md:leading-9 lg:pr-16"
-        >
-          The dearest of actions to Allah is that which is done regularly, even
-          if it is small. Giving regular charity no matter how small attracts
-          the blessings of Allah swt. Help us bring hope to life to millions
-          around the world.
-        </p>
-        <div
-          class="box-border leading-7 lg:text-left text-gray-900 text-center"
-        >
-          <router-link
-            to="/app"
-            class="inline-block w-full px-5 py-3 mb-3 mr-1 text-base font-semibold text-white no-underline align-middle bg-gray-900 border border-transparent border-solid rounded-full cursor-pointer select-none sm:mb-0 sm:w-auto hover:bg-black hover:text-white"
-          >
-            DONATE
-          </router-link>
-          <a
-            href="https://t.me/cryptoforislam"
-            class="inline-block w-full px-5 py-3 text-base font-semibold text-gray-600 no-underline align-middle border border-transparent border-solid rounded-full cursor-pointer select-none bg-gray-100 sm:w-auto hover:bg-gray-200 hover:text-blue-600"
-          >
-            Join Telegram
-          </a>
+      <div
+        class="justify-center mx-auto container flex lg:flex-row flex-col items-center px-12"
+      >
+        <div class="lg:w-1/2 w-full m-auto ml-20">
+          <h1 class="mb-8 text-7xl font-extrabold leading-none tracking-normal">
+            <span
+              class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-red-400 to-blue-500 lg:inline"
+            >
+              CRYPTO
+              <br />
+              FOR
+              <br />
+              ISLAM
+            </span>
+          </h1>
+        </div>
+        <div class="lg:w-1/2 w-full m-auto bg-white">
+          <lottie-player
+            src="https://assets10.lottiefiles.com/packages/lf20_touohxv0.json"
+            background="transparent"
+            speed="1"
+            class="w-full h-full"
+            loop
+            autoplay
+          ></lottie-player>
         </div>
       </div>
-      <div
-        class="lg:w-1/2 w-full lg:max-w-none max-w-md lg:pt-0 pt-20 mx-auto lg:pl-20"
-      >
-        <img src="https://cryptoforislam.com/main.png" class="w-full h-auto" />
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <section
-    class="box-border relative block py-24 overflow-hidden leading-6 text-left bg-white"
+    class="box-border relative block py-10 overflow-hidden leading-6 text-left bg-white"
   >
     <div class="max-w-6xl px-4 px-16 mx-auto leading-6 text-left xl:px-12">
       <div
-        class="box-border flex flex-col flex-wrap items-start mx-0 text-indigo-900"
+        class="box-border flex flex-col flex-wrap items-start mx-0 uppercase"
       >
-        <div class="pb-4 text-sm font-bold text-left text-gray-700 uppercase">
+        <div class="pb-4 text-sm font-bold text-left text-gray-700">
           BRINGING HOPE TO LIFE
         </div>
         <h3
@@ -63,17 +49,15 @@
           What We Do
         </h3>
       </div>
-      <div class="grid grid-cols-3 gap-5 text-indigo-900 md:grid-cols-6">
+      <div class="grid grid-cols-3 gap-5 md:grid-cols-6">
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Water
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -85,15 +69,13 @@
         </div>
 
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Education
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -104,15 +86,13 @@
           </div>
         </div>
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Food Security
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -123,15 +103,13 @@
           </div>
         </div>
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Emergency Relief
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -141,15 +119,13 @@
           </div>
         </div>
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Orphan Care
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -159,15 +135,13 @@
           </div>
         </div>
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Health & Wellbeing
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -178,15 +152,13 @@
         </div>
 
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Refugee Empowerment
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -197,15 +169,13 @@
         </div>
 
         <div class="relative w-full col-span-3 px-4 leading-6 text-left">
-          <div
-            class="box-border flex items-center justify-start pt-12 text-indigo-900"
-          >
+          <div class="box-border flex items-center justify-start pt-12">
             <img
               src="icon/icon.svg"
               class="leading-6 text-left align-middle border-none w-14 h-14"
             />
             <div class="pl-8 leading-6 text-left">
-              <div class="box-border pb-1 text-xl font-medium text-indigo-900">
+              <div class="box-border pb-1 text-xl font-bold uppercase">
                 Livelihoods
               </div>
               <div class="box-border text-base leading-normal text-gray-700">
@@ -218,29 +188,90 @@
     </div>
   </section>
 
-  <section class="py-24 bg-white">
-    <div class="px-12 mx-auto max-w-7xl">
-      <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-        <h1
-          class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight"
-        >
-          <span
-            class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-400 to-purple-500 lg:inline"
+  <div class="py-20">
+    <section
+      class="bg-yellow-50 overflow-hidden bg-cover bg-center cursor-pointer transform duration-500 hover:-translate-y-1 rounded-xl"
+    >
+      <div
+        class="justify-center mx-auto container flex lg:flex-row flex-col items-center px-12"
+      >
+        <div class="lg:w-1/2 w-full m-auto bg-white">
+          <lottie-player
+            src="https://assets6.lottiefiles.com/private_files/lf30_nln9kxzl.json"
+            background="transparent"
+            speed="1"
+            class="w-full h-full"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+        <div class="lg:w-1/2 w-full m-auto ml-20">
+          <h1 class="mb-8 text-7xl font-extrabold leading-none tracking-normal">
+            <span
+              class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-red-400 to-blue-500 lg:inline"
+            >
+              100%
+              <br />
+              DONATIONS
+              <br />
+              PROMISE
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="block py-24 leading-7 text-left text-gray-900 bg-white">
+    <div
+      class="relative w-full px-5 px-8 mx-auto leading-7 text-gray-900 max-w-7xl lg:px-16 xl:px-32"
+    >
+      <div class="flex flex-col flex-wrap items-center text-left md:flex-row">
+        <div class="flex-1 opacity-100 xl:pr-12 transform-none">
+          <h1
+            class="box-border mt-0 text-6xl font-normal tracking-tight text-gray-900 mb-7 md:text-left uppercase"
           >
-            100%
-          </span>
-          DONATIONS PROMISE
-        </h1>
-        <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
-          Thanks to the unique way we work we are able to ensure that 100% of
-          your donation goes to our work.
-        </p>
-      </div>
-      <div class="w-full mx-auto mt-20 text-center md:w-10/12 hover:scale-110">
-        <img src="pro.png" />
-      </div>
-      <div class="w-full mx-auto mt-20 text-center md:w-10/12">
-        <img src="howto.png" />
+            “Every
+            <span class="text-blue-600">Muslim</span>
+            has to give in charity.”
+          </h1>
+
+          <p
+            class="box-border mt-0 mb-8 text-base font-normal text-center text-gray-500 lg:text-xl md:text-left lg:mb-8"
+          >
+            - Prophet Muhammad
+          </p>
+
+          <div
+            class="box-border leading-7 text-center text-gray-900 md:text-left"
+          >
+            <router-link
+              to="/app"
+              class="mr-5 uppercase inline-block w-full px-5 py-3 mb-3 mr-1 text-base font-semibold text-white no-underline align-middle bg-gray-600 border border-transparent border-solid rounded-md cursor-pointer select-none sm:mb-0 sm:w-auto hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700"
+            >
+              Donate
+            </router-link>
+            <a
+              href="https://y8fsqpcq0pb.typeform.com/to/NnAtKo5W"
+              class="uppercase inline-block w-full px-5 py-3 mb-3 mr-1 text-base font-semibold text-white no-underline align-middle bg-gray-600 border border-transparent border-solid rounded-md cursor-pointer select-none sm:mb-0 sm:w-auto hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700"
+            >
+              Request Donation
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="relative flex justify-center flex-1 w-full px-5 mt-16 leading-7 text-gray-900 md:justify-end md:mt-0"
+        >
+          <lottie-player
+            src="https://assets10.lottiefiles.com/packages/lf20_zpdtmajt.json"
+            background="transparent"
+            speed="1"
+            class="w-full h-full"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
       </div>
     </div>
   </section>
