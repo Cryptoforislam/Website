@@ -35,12 +35,12 @@
   </div>
   <router-view />
 
-  <section class="px-6 py-6 text-white bg-gray-900 lg:px-8 md:py-12">
+  <section class="px-6 py-6 text-gray-300 bg-gray-900 lg:px-8 md:py-12">
     <div
       class="py-6 mx-auto mb-12 space-y-6 border-b-2 border-gray-200 max-w-7xl lg:mb-16 md:py-12 lg:pb-20 md:flex md:justify-between md:items-center md:flex-row md:space-x-12"
     >
       <div class="flex-1 max-w-3xl">
-        <h4 class="text-2xl font-medium text-gray-700 sm:text-3xl md:text-4xl">
+        <h4 class="text-2xl font-medium sm:text-3xl md:text-4xl">
           The Prophet Muhammad said: “Every Muslim has to give in charity.”
         </h4>
         <p
