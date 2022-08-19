@@ -111,7 +111,8 @@ export default {
 					name: 'Muruj Siddique',
 					title: 'Manager',
 					pic: 'team/2.jpg',
-				}, {
+				},
+				{
 					name: 'Najib Burki',
 					title: 'Manager',
 					pic: 'team/3.jpg',
