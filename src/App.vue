@@ -33,9 +33,9 @@
 					and no one humbles himself for the sake of Allah except that Allah raises his status.”
 				</p>
 			</div>
-			<router-link to="/app"
+			<a href="https://y8fsqpcq0pb.typeform.com/to/NnAtKo5W"
 				class="inline-block px-5 py-4 font-semibold text-white rounded-lg bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-500 hover:to-indigo-700 lg:px-8">
-				DONATE</router-link>
+				Request Donation</a>
 		</div>
 		<div class="grid max-w-screen-xl gap-6 mx-auto md:grid-cols-2 lg:grid-cols-4 lg:gap-x-8" v-if="load">
 			<div v-for="(post, index) of posts" :key="index">
