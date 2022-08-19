@@ -7,7 +7,7 @@
         class="justify-center mx-auto container flex lg:flex-row flex-col items-center px-12"
       >
         <div class="lg:w-1/2 w-full m-auto ml-20">
-          <h1 class="mb-8 text-xl md:text-7xl font-extrabold leading-none tracking-normal">
+          <h1 class="mb-8 text-3xl md:text-7xl font-extrabold leading-none tracking-normal">
             <span
               class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-red-400 to-blue-500 lg:inline"
             >
@@ -19,7 +19,7 @@
             </span>
           </h1>
         </div>
-        <div class="lg:w-1/2 w-full m-auto bg-white">
+        <div class="lg:w-1/2 w-full m-auto bg-white hidden md:block">
           <lottie-player
             src="https://assets10.lottiefiles.com/packages/lf20_touohxv0.json"
             background="transparent"
@@ -188,7 +188,7 @@
     </div>
   </section>
 
-  <div class="py-20">
+  <div class="py-20 hidden md:block">
     <section
       class="bg-yellow-50 overflow-hidden bg-cover bg-center cursor-pointer transform duration-500 hover:-translate-y-1 rounded-xl"
     >
