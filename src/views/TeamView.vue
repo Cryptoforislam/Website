@@ -102,11 +102,7 @@ export default {
 	data() {
 		return {
 			teams: [
-				{
-					name: 'M Habib Jave',
-					title: 'Founder',
-					pic: 'team/1.jpg',
-				},
+				
 
 				{
 					name: 'Arif Siddiqui',
@@ -119,14 +115,21 @@ export default {
 					pic: 'team/3.jpg',
 				},
 				{
+					name: 'M Habib Jave',
+					title: 'Founder',
+					pic: 'team/1.jpg',
+				},
+				{
 					name: 'Najib Burki',
 					title: 'Developer',
 					pic: 'team/4.jpg',
-				}, {
+				},
+				{
 					name: 'Waseem Moustafa',
 					title: 'Graphic Designer',
 					pic: 'team/5.jpg',
-				}, {
+				},
+				{
 					name: 'Ali Pour',
 					title: 'Marketing Strategist',
 					pic: 'team/6.jpg',
