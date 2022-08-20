@@ -107,29 +107,41 @@ export default {
 					title: 'Founder',
 					pic: 'team/1.jpg',
 				},
+
 				{
-					name: 'Muruj Siddique',
+					name: 'Arif Siddiqui',
 					title: 'Manager',
 					pic: 'team/2.jpg',
 				},
 				{
-					name: 'Najib Burki',
-					title: 'Manager',
+					name: 'Muruj Siddiqui',
+					title: 'Front-end Developer',
 					pic: 'team/3.jpg',
-				}, {
-					name: 'Waseem Moustafa',
-					title: 'Manager',
-					pic: 'team/4.jpg',
-				}, {
-					name: 'Ali Pour',
-					title: 'Manager',
-					pic: 'team/5.jpg',
 				},
 				{
-					name: 'Ali',
-					title: 'Manager',
+					name: 'Najib Burki',
+					title: 'Developer',
+					pic: 'team/4.jpg',
+				}, {
+					name: 'Waseem Moustafa',
+					title: 'Graphic Designer',
+					pic: 'team/5.jpg',
+				}, {
+					name: 'Ali Pour',
+					title: 'Marketing Strategist',
 					pic: 'team/6.jpg',
 				},
+				{
+					name: 'Faizan Surve',
+					title: 'Content Writer',
+					pic: 'team/7.jpg',
+				},
+				{
+					name: 'Zayn',
+					title: 'Social Media Specialist',
+					pic: 'team/8.jpg',
+				},
+
 			],
 		};
 	},
