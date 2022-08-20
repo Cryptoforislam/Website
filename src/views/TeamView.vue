@@ -116,33 +116,33 @@ export default {
 				},
 				{
 					name: 'Muruj Siddiqui',
-					title: 'Front-end Developer',
+					title: 'Counselor',
 					pic: 'team/3.jpg',
 				},
 				
 				{
 					name: 'Najib Burki',
-					title: 'Developer',
+					title: 'Volunteer Coordinator',
 					pic: 'team/4.jpg',
 				},
 				{
 					name: 'Waseem Moustafa',
-					title: 'Graphic Designer',
+					title: 'Planning Manager',
 					pic: 'team/5.jpg',
 				},
 				{
 					name: 'Ali Pour',
-					title: 'Marketing Strategist',
+					title: 'Social Work Manager',
 					pic: 'team/6.jpg',
 				},
 				{
 					name: 'Faizan Surve',
-					title: 'Content Writer',
+					title: 'Social Worker',
 					pic: 'team/7.jpg',
 				},
 				{
-					name: 'Zayn',
-					title: 'Social Media Specialist',
+					name: 'Thomas',
+					title: 'Social Worker',
 					pic: 'team/8.jpg',
 				},
 
