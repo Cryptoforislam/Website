@@ -197,7 +197,7 @@
       >
         <div class="lg:w-1/2 w-full m-auto bg-white">
           <lottie-player
-            src="https://assets6.lottiefiles.com/private_files/lf30_nln9kxzl.json"
+            src="https://assets8.lottiefiles.com/packages/lf20_djwnoxew.json"
             background="transparent"
             speed="1"
             class="w-full h-full"
