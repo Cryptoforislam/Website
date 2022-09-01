@@ -16,7 +16,7 @@
 						<h1 class="font-extrabold text-4xl sm:text-5xl xl:text-6xl sm:text-center lg:text-left relative tracking-tight">CRYPTO FOR ISLAM</h1>
 
 						<div class="flex max-w-sm items-center lg:max-w-lg">
-							<p class="pl-3 lg:text-base text-xs">Join <span class="font-bold">2,000</span> other islamic brothers to donate and help our <span class="font-bold">community</span> together!</p>
+							<p class="pl-3 lg:text-base text-xs">Join <span class="font-bold">2,000</span> other islamic brothers to donate and help our <span class="font-bold">community</span> together! Our courageous teams and partners across the globe dedicate their lives to fulfill our mission to support Muslims all across the world.</p>
 						</div>
 
 						<div class="w-full flex sm:flex-row flex-col sm:justify-center lg:justify-start font-medium sm:space-x-5 space-y-4 sm:space-y-0 uppercase">
@@ -87,7 +87,7 @@
 							<img src="icon/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Education</div>
-								<div class="box-border text-base leading-normal text-gray-700">Education is the key to a brighter future for so many vulnerable children across the world. Your donation can inspire hope through education. Help us provide education forever.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Education is the key to a brighter future for so many vulnerable children across the world. Your donation can inspire hope through education.</div>
 							</div>
 						</div>
 					</div>
@@ -114,7 +114,7 @@
 							<img src="icon/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Orphan Care</div>
-								<div class="box-border text-base leading-normal text-gray-700">Caring for those who can't care for themselves. Help the most vulnerable and protect those at risk</div>
+								<div class="box-border text-base leading-normal text-gray-700">Caring for those who can't care for themselves. Help the most vulnerable and protect those at risk. Your support here means we will be ready to serve with efficiency and immediacy.</div>
 							</div>
 						</div>
 					</div>
@@ -123,7 +123,7 @@
 							<img src="icon/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Health & Wellbeing</div>
-								<div class="box-border text-base leading-normal text-gray-700">Donate your zakat and sadaqah to the Health Fund. We carry out health programmes across the globe, providing healthcare services, medicine and equipment to those most in need.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Donate your zakat and sadaqah to the Health Fund. We carry out health programmes across the globe, providing healthcare services, medicine and equipments.</div>
 							</div>
 						</div>
 					</div>
@@ -143,7 +143,7 @@
 							<img src="icon/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Livelihoods</div>
-								<div class="box-border text-base leading-normal text-gray-700">Lifting people out of poverty & ensuring their self-reliance.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Lifting people out of poverty & ensuring their self-reliance, projects focused on the education, health, safety, of women and girls around the world.</div>
 							</div>
 						</div>
 					</div>
