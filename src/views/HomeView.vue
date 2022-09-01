@@ -162,7 +162,7 @@
 				</div>
 				<div class="grid grid-cols-12 gap-8">
 					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-6 hover:scale-105 bg-white">
-						<a v-bind:href="posts[0].guid" class="block h-82 overflow-hidden">
+						<a v-bind:href="posts[0].guid" class="block h-50 overflow-hidden">
 							<img v-bind:src="posts[0].thumbnail" class="object-cover w-50 h-50" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
@@ -174,7 +174,7 @@
 					</div>
 
 					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-6 hover:scale-105 bg-white">
-						<a v-bind:href="posts[1].guid" class="block h-82 overflow-hidden">
+						<a v-bind:href="posts[1].guid" class="block h-50 overflow-hidden">
 							<img v-bind:src="posts[1].thumbnail" class="object-cover w-50 h-50" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
@@ -186,7 +186,7 @@
 					</div>
 
 					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-4 hover:scale-105 bg-white">
-						<a v-bind:href="posts[2].guid" class="block h-82 overflow-hidden">
+						<a v-bind:href="posts[2].guid" class="block h-50 overflow-hidden">
 							<img v-bind:src="posts[2].thumbnail" class="object-cover w-50 h-50" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
@@ -198,7 +198,7 @@
 					</div>
 
 					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-4 hover:scale-105 bg-white">
-						<a v-bind:href="posts[3].guid" class="block h-82 overflow-hidden">
+						<a v-bind:href="posts[3].guid" class="block h-50 overflow-hidden">
 							<img v-bind:src="posts[3].thumbnail" class="object-cover w-50 h-50" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
