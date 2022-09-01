@@ -16,7 +16,7 @@
 						<h1 class="font-extrabold text-4xl sm:text-5xl xl:text-6xl sm:text-center lg:text-left relative tracking-tight">CRYPTO FOR ISLAM</h1>
 
 						<div class="flex max-w-sm items-center lg:max-w-lg">
-							<p class="pl-3 lg:text-base text-xs">Join <span class="font-bold">2,000</span> other islamic brothers to donate and help our <span class="font-bold">community</span> together! Our courageous teams and partners across the globe dedicate their lives to fulfill our mission to support  <span class="font-bold">Muslims</span></p>
+							<p class="pl-3 lg:text-base text-xs">Join <span class="font-bold">2,000</span> other islamic brothers to donate and help our <span class="font-bold">community</span> together! Our courageous team and partners across the globe dedicate their lives to fulfill our mission to support  <span class="font-bold">Muslims</span></p>
 						</div>
 
 						<div class="w-full flex sm:flex-row flex-col sm:justify-center lg:justify-start font-medium sm:space-x-5 space-y-4 sm:space-y-0 uppercase">
