@@ -114,7 +114,7 @@
 							<img src="icon/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Orphan Care</div>
-								<div class="box-border text-base leading-normal text-gray-700">Caring for those who can't care for themselves. Help the most vulnerable and protect those at risk. Your support means we will be ready to serve with efficiency and immediacy.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Caring for those who can't care for themselves. Help them and protect those at risk. Your support means we will be ready to serve with efficiency and immediacy.</div>
 							</div>
 						</div>
 					</div>
