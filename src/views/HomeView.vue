@@ -121,7 +121,7 @@
 
 		<section class="bg-white py-40 hidden md:block" v-if="load">
 			<div class="py-5 px-5">
-				<div class="text-center">
+				<div class="text-center py-5">
 					<h2 class="relative inline-block px-5 py-2 mb-5 text-5xl font-extrabold bg-white border-2 border-black">
 						<div class="absolute w-full py-2 h-full inset-0 border-2 border-black bg-black ml-1.5 mt-1.5"></div>
 						<div class="absolute inset-0 w-full h-full py-2 bg-white"></div>
@@ -130,55 +130,43 @@
 				</div>
 				<div class="grid grid-cols-12 gap-8">
 					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-6 hover:scale-105 bg-white">
-						<a v-bind:href="posts[0].guid" class="block h-82 overflow-hidden">
+						<a v-bind:href="posts[0].link" class="block h-82 overflow-hidden">
 							<img v-bind:src="posts[0].thumbnail" class="object-cover w-82 h-82" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
 							<h2 class="mb-2">
-								<a v-bind:href="posts[0].guid" class="text-xl font-bold leading-tight tracking-tight">{{ posts[0].title }}</a>
+								<a v-bind:href="posts[0].link" class="text-xl font-bold leading-tight tracking-tight">{{ posts[0].title }}</a>
 							</h2>
 						</div>
 					</div>
 
 					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-6 hover:scale-105 bg-white">
-						<a v-bind:href="posts[1].guid" class="block h-82 overflow-hidden">
+						<a v-bind:href="posts[1].link" class="block h-82 overflow-hidden">
 							<img v-bind:src="posts[1].thumbnail" class="object-cover w-82 h-82" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
 							<h2 class="mb-2">
-								<a v-bind:href="posts[1].guid" class="text-xl font-bold leading-tight tracking-tight">{{ posts[1].title }}</a>
+								<a v-bind:href="posts[1].link" class="text-xl font-bold leading-tight tracking-tight">{{ posts[1].title }}</a>
 							</h2>
 						</div>
 					</div>
-
-					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-4 hover:scale-105 bg-white">
-						<a v-bind:href="posts[2].guid" class="block h-82 overflow-hidden">
+					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-6 hover:scale-105 bg-white">
+						<a v-bind:href="posts[2].link" class="block h-82 overflow-hidden">
 							<img v-bind:src="posts[2].thumbnail" class="object-cover w-82 h-82" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
 							<h2 class="mb-2">
-								<a v-bind:href="posts[2].guid" class="text-xl font-bold leading-tight tracking-tight">{{ posts[2].title }}</a>
+								<a v-bind:href="posts[2].link" class="text-xl font-bold leading-tight tracking-tight">{{ posts[2].title }}</a>
 							</h2>
 						</div>
 					</div>
-
-					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-4 hover:scale-105 bg-white">
-						<a v-bind:href="posts[3].guid" class="block h-82 overflow-hidden">
+					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-6 hover:scale-105 bg-white">
+						<a v-bind:href="posts[3].link" class="block h-82 overflow-hidden">
 							<img v-bind:src="posts[3].thumbnail" class="object-cover w-82 h-82" />
 						</a>
 						<div class="p-5 pb-6 bg-white">
 							<h2 class="mb-2">
-								<a v-bind:href="posts[3].guid" class="text-xl font-bold leading-tight tracking-tight">{{ posts[3].title }}</a>
-							</h2>
-						</div>
-					</div>
-					<div class="relative col-span-12 duration-150 ease-out transform border-2 border-black cursor-pointer md:col-span-4 hover:scale-105 bg-white">
-						<a v-bind:href="posts[4].guid" class="block h-82 overflow-hidden">
-							<img v-bind:src="posts[4].thumbnail" class="object-cover w-82 h-82" />
-						</a>
-						<div class="p-5 pb-6 bg-white">
-							<h2 class="mb-2">
-								<a v-bind:href="posts[4].guid" class="text-xl font-bold leading-tight tracking-tight">{{ posts[4].title }}</a>
+								<a v-bind:href="posts[3].link" class="text-xl font-bold leading-tight tracking-tight">{{ posts[3].title }}</a>
 							</h2>
 						</div>
 					</div>
@@ -194,7 +182,14 @@
 	export default {
 		data() {
 			return {
-				posts: [{ title: 'ok' }],
+				posts: [
+					{ title: '', link: '', thumbnail: '' },
+					{ title: '', link: '', thumbnail: '' },
+					{ title: '', link: '', thumbnail: '' },
+					{ title: '', link: '', thumbnail: '' },
+					{ title: '', link: '', thumbnail: '' },
+					{ title: '', link: '', thumbnail: '' },
+				],
 				load: false,
 			};
 		},
