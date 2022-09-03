@@ -23,7 +23,7 @@
 					</a>
 				</div>
 
-				<div class="flex-col hidden mt-12 sm:flex lg:mt-12">
+				<div class="flex-col mt-12 sm:flex lg:mt-12">
 					<div class="flex">
 						<a href="https://instagram.com/cryptoforislam">
 							<svg
