@@ -45,7 +45,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Water</div>
-								<div class="box-border text-base leading-normal text-gray-700">An ever-flowing charity,Sadaqah Jariyah provides clean water so communities can thrive.</div>
+								<div class="box-border text-base leading-normal text-gray-700">An ever-flowing charity, Sadaqah Jariyah provides clean water so communities can thrive. Everyone has the right to water, everyone has the right to life.</div>
 							</div>
 						</div>
 					</div>
@@ -55,7 +55,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Education</div>
-								<div class="box-border text-base leading-normal text-gray-700">Providing access to education & creating powerful antidotes to unrest, distrust, & war</div>
+								<div class="box-border text-base leading-normal text-gray-700">Education is the key to a brighter future for so many vulnerable children across the world. Your donation can inspire hope through education.</div>
 							</div>
 						</div>
 					</div>
@@ -64,7 +64,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Food Security</div>
-								<div class="box-border text-base leading-normal text-gray-700">Delivering urgent food in Ramadan & year round to relieve starvation.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Delivering urgent food in Ramadan & year round to relieve starvation. We provide millions of life-saving, nutritious meals to the poor and needy.</div>
 							</div>
 						</div>
 					</div>
@@ -73,7 +73,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Emergency Relief</div>
-								<div class="box-border text-base leading-normal text-gray-700">Helping victims of disaster & violent conflict.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Helping victims of disaster & violent conflict. Help to build Schools, Hospitals, Infrastructure & Provide Humanitarian Aid.</div>
 							</div>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Orphan Care</div>
-								<div class="box-border text-base leading-normal text-gray-700">Caring for those who can't care for themselves.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Caring for those who can't care for themselves. Your support provides access to education, shelter, nutritious meals and the chance to build a secure future</div>
 							</div>
 						</div>
 					</div>
@@ -91,7 +91,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Health & Wellbeing</div>
-								<div class="box-border text-base leading-normal text-gray-700">Leading critical projects to heal bodies, minds, & souls.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Donate your Zakat and Sadaqah to the Health Fund. We carry out health programs across the globe, providing healthcare services.</div>
 							</div>
 						</div>
 					</div>
@@ -101,7 +101,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Refugee Empowerment</div>
-								<div class="box-border text-base leading-normal text-gray-700">Alleviating the needs of vulnerable families & children.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Alleviating the needs of vulnerable families & children.  Help us in our fight, protect themselves and their families.</div>
 							</div>
 						</div>
 					</div>
@@ -111,7 +111,7 @@
 							<img src="img/icon.svg" class="leading-6 text-left align-middle border-none w-14 h-14" />
 							<div class="pl-8 leading-6 text-left">
 								<div class="box-border pb-1 text-xl font-bold uppercase">Livelihoods</div>
-								<div class="box-border text-base leading-normal text-gray-700">Lifting people out of poverty & ensuring their self-reliance.</div>
+								<div class="box-border text-base leading-normal text-gray-700">Lifting people out of poverty & ensuring their self-reliance. Leading critical projects to heal bodies, minds, & souls.</div>
 							</div>
 						</div>
 					</div>
