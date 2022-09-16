@@ -259,7 +259,7 @@
 			</div>
 		</section>
 
-		<section class="relative bg-white h-full pb-40 px-10">
+		<section class="relative bg-white h-full pb-40 px-10 hidden md:block">
 			<div class="max-w-6xl px-10 md:px-20 lg:px-10 bg-gray-100 pt-5 rounded-3xl mx-auto">
 				<div class="flex flex-wrap items-center">
 					<div class="relative w-full lg:w-5/12 px-4 order-last lg:order-first">
