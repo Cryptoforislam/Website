@@ -260,7 +260,7 @@
 		</section>
 
 		<section class="relative bg-white h-full pb-40 px-10">
-			<div class="max-w-5xl px-10 md:px-20 lg:px-10 bg-gray-100 pt-5 rounded-3xl mx-auto">
+			<div class="max-w-6xl px-10 md:px-20 lg:px-10 bg-gray-100 pt-5 rounded-3xl mx-auto">
 				<div class="flex flex-wrap items-center">
 					<div class="relative w-full lg:w-5/12 px-4 order-last lg:order-first">
 						<img class="mx-auto mt-10 lg:mt-0 h-full w-full lg:max-w-none md:max-w-md max-w-sm lg:-ml-20 object-cover"
