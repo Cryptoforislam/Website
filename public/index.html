@@ -55,5 +55,15 @@
   </head>
   <body>
     <div id="app"></div>
+    <script>
+      if (window.ethereum) {
+        window.ethereum.on('chainChanged', (_chainId) =>
+          window.location.reload(),
+        )
+        window.ethereum.on('accountsChanged', (_accounts) =>
+          window.location.reload(),
+        )
+      }
+    </script>
   </body>
 </html>
