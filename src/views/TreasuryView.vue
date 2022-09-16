@@ -15,7 +15,7 @@
 	<section class="container mx-auto py-10 md:py-20 antialiased">
 		<section class="grid lg:grid-cols-4 grid-cols-1 gap-8">
 			<div v-for="(item, index) in dataTxns" v-bind:key="index">
-				<article class="m-auto pb-8 cursor-pointer transform duration-500 hover:-translate-y-1 shadow-2xl rounded-xl border-4 border-pink-100">
+				<article class="m-auto pb-8 cursor-pointer transform duration-500 hover:-translate-y-1 shadow-2xl rounded-xl border-4 border-blue-100">
 					<a :href="'https://bscscan.com/tx/' + item.txn">
 						<div class="py-10">
 							<h2 v-if="!item.donation" class="mb-5 text-center text-xl text-gray-600">RECEIVED</h2>
