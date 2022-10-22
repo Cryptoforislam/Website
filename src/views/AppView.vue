@@ -82,11 +82,9 @@ export default {
 
 				const amount_x = ethers.utils.parseEther(this.amount.toString(), tokenDecimals);
 
-
 				const Controller = new ethers.Contract(this.contract, CABI, signer);
 
 				const allowance_live = await Yuh.allowance(this.account, this.contract);
-
 
 				if (allowance_live < MAX_UINT256 / 2) {
 					const txn = await Yuh.approve(this.contract, MAX_UINT256, {
