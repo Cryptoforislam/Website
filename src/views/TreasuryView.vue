@@ -56,7 +56,7 @@
 
 				const amount2 = ethers.utils.formatEther(amount.toString(), 18);
 
-				this.amount = parseInt(amount2).toFixed(2) + parseInt(16781);
+				this.amount = parseInt(amount2).toFixed(2);
 
 				const data = await axios.get('https://raw.githubusercontent.com/Cryptoforislam/Donations-Data/data/data.json');
 
