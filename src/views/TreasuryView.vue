@@ -11,29 +11,10 @@
 			</span>
 		</div>
 	</div>
-
-	<section class="container mx-auto py-10 md:py-20 antialiased">
-		<section class="grid lg:grid-cols-4 grid-cols-1 gap-8">
-			<div v-for="(item, index) in dataTxns" v-bind:key="index">
-				<article class="m-auto pb-8 cursor-pointer transform duration-500 hover:-translate-y-1 shadow-2xl rounded-xl border-4 border-blue-100">
-					<a :href="'https://bscscan.com/tx/' + item.txn">
-						<div class="py-10">
-							<h2 v-if="!item.donation" class="mb-5 text-center text-xl text-gray-600">RECEIVED</h2>
-							<h2 v-if="item.donation" class="mb-5 text-center text-xl text-gray-600">DONATED</h2>
-
-							<h2 v-if="!item.donation" class="text-center text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-green-400">$ {{ item.amount.toFixed(0) }}</h2>
-							<h2 v-if="item.donation" class="text-center text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-red-400">$ {{ item.amount.toFixed(0) }}</h2>
-						</div>
-					</a>
-				</article>
-			</div>
-		</section>
-	</section>
 </template>
 
 <script>
 	const TABI = require('../assets/token.json');
-	const axios = require('axios');
 
 	import { ethers } from 'ethers';
 
@@ -42,7 +23,6 @@
 			return {
 				token: '0x55d398326f99059ff775485246999027b3197955',
 				amount: '......',
-				dataTxns: [],
 			};
 		},
 
@@ -57,10 +37,6 @@
 				const amount2 = ethers.utils.formatEther(amount.toString(), 18);
 
 				this.amount = parseInt(amount2).toFixed(2);
-
-				const data = await axios.get('https://raw.githubusercontent.com/Cryptoforislam/Donations-Data/data/data.json');
-
-				this.dataTxns = data.data.slice(0, 16);
 			} catch (e) {
 				console.log(e);
 			}
